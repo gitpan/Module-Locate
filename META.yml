@@ -25,4 +25,4 @@ requires:
   strict: 0
 resources:
   repository: https://github.com/neilbowers/Module-Locate
-version: 1.71
+version: 1.72
