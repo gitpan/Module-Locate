@@ -1,7 +1,7 @@
 {
   package Module::Locate;
 
-  $VERSION  = 1.74;
+  $VERSION  = 1.75;
   $Cache    = 0;
   $Global   = 1;
 
@@ -146,7 +146,7 @@
     ## it looks like %INC entries automagically use / as a separator
     my $path = join '/', split '::' => "$mod.pm";
 
-    return exists $INC{$path} and defined $INC{$path};
+    return (exists $INC{$path} && defined $INC{$path});
   }
 
   sub is_pkg_loaded {
