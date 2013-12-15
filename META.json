@@ -4,7 +4,7 @@
       "Dan Brook <cpan@broquaint.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -36,7 +36,8 @@
             "File::Spec::Functions" : "0",
             "IO::File" : "0",
             "overload" : "0",
-            "strict" : "0"
+            "strict" : "0",
+            "warnings" : "0"
          }
       }
    },
@@ -46,5 +47,5 @@
          "url" : "https://github.com/neilbowers/Module-Locate"
       }
    },
-   "version" : "1.76"
+   "version" : "1.77"
 }
