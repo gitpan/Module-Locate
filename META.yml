@@ -27,4 +27,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/neilbowers/Module-Locate
-version: 1.78_01
+version: 1.79
